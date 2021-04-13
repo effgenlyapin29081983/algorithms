@@ -9,7 +9,7 @@ c = int(input("Enter third length:\n"))
 
 if (a + b > c) and (a + c > b) and (b + c > a):
     print("Triangle!")
-    if (a == b and a == c):
+    if a == b and a == c:
         print("Equilateral!")
     elif (a == b and a != c) or (a == c and a != b) or (b == c and b != a):
         print("Isosceles!")
