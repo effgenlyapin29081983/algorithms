@@ -1,1 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2021-04-13T20:27:43.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.6.0" etag="LCD1G0wflZuBepNoIeU-" type="github"><diagram id="mdmHyK3h3bdnyt8QiDrz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-13T21:11:47.966Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="7aFTWNtcsU4WwyKA2uJ8" version="14.6.0" type="github" pages="2">
+  <diagram id="mdmHyK3h3bdnyt8QiDrz" name="task_5">
+    <mxGraphModel dx="782" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZRTXDL-bSnFZzdsFNI2P-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZRTXDL-bSnFZzdsFNI2P-1" target="ZRTXDL-bSnFZzdsFNI2P-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRTXDL-bSnFZzdsFNI2P-1" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRTXDL-bSnFZzdsFNI2P-2" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="540" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRTXDL-bSnFZzdsFNI2P-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZRTXDL-bSnFZzdsFNI2P-3" target="ZRTXDL-bSnFZzdsFNI2P-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRTXDL-bSnFZzdsFNI2P-3" value="Вывод:&lt;br&gt;&quot;Введите две буквы&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRTXDL-bSnFZzdsFNI2P-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.477;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZRTXDL-bSnFZzdsFNI2P-5" target="ZRTXDL-bSnFZzdsFNI2P-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRTXDL-bSnFZzdsFNI2P-5" value="Ввод:&lt;br&gt;a,b" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRTXDL-bSnFZzdsFNI2P-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZRTXDL-bSnFZzdsFNI2P-6" target="ZRTXDL-bSnFZzdsFNI2P-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRTXDL-bSnFZzdsFNI2P-6" value="Вывод:&lt;br&gt;&quot;Номер первого символа в алфавите&quot; = ord(a)-96&lt;br&gt;&quot;Номер первого символа в алфавите&quot; = ord(b)-96&lt;br&gt;&quot;Количество символов между введенными&quot; = abs(ord(b)-ord(a))-1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="410" width="315" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rf-S3L3fTV5zpZlyYSIP" name="task_6">
+    <mxGraphModel dx="782" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="cSZgb2AFBSp86A15O1uf-0" />
+        <mxCell id="cSZgb2AFBSp86A15O1uf-1" parent="cSZgb2AFBSp86A15O1uf-0" />
+        <mxCell id="cSZgb2AFBSp86A15O1uf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cSZgb2AFBSp86A15O1uf-1" source="cSZgb2AFBSp86A15O1uf-2" target="cSZgb2AFBSp86A15O1uf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cSZgb2AFBSp86A15O1uf-2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="cSZgb2AFBSp86A15O1uf-1">
+          <mxGeometry x="290" y="30" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cSZgb2AFBSp86A15O1uf-3" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="cSZgb2AFBSp86A15O1uf-1">
+          <mxGeometry x="290" y="430" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cSZgb2AFBSp86A15O1uf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cSZgb2AFBSp86A15O1uf-1" source="cSZgb2AFBSp86A15O1uf-4" target="cSZgb2AFBSp86A15O1uf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cSZgb2AFBSp86A15O1uf-4" value="Вывод:&lt;br&gt;&quot;Введите номер буквы&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="cSZgb2AFBSp86A15O1uf-1">
+          <mxGeometry x="290" y="130" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cSZgb2AFBSp86A15O1uf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cSZgb2AFBSp86A15O1uf-1" source="cSZgb2AFBSp86A15O1uf-5" target="cSZgb2AFBSp86A15O1uf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cSZgb2AFBSp86A15O1uf-5" value="Ввод:&lt;br&gt;a" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="cSZgb2AFBSp86A15O1uf-1">
+          <mxGeometry x="290" y="220" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cSZgb2AFBSp86A15O1uf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="cSZgb2AFBSp86A15O1uf-1" source="cSZgb2AFBSp86A15O1uf-6" target="cSZgb2AFBSp86A15O1uf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cSZgb2AFBSp86A15O1uf-6" value="Вывод:&lt;br&gt;&quot;Введен символ &quot; = chr(a+96)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="cSZgb2AFBSp86A15O1uf-1">
+          <mxGeometry x="290" y="320" width="220" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
