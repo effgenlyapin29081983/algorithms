@@ -25,8 +25,8 @@ for i in range(COUNT_ROWS):
                 min_el_col = matrix[i][j]
     min_els.append(min_el_col)
 
-for i in range(len(min_els)):
-    print([matrix[j][i] for j in range(COUNT_ROWS)])
+for i in range(COUNT_ROWS):
+    print([matrix[j][i] for j in range(len(min_els))])
 
 print(min_els)
 
