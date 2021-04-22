@@ -14,7 +14,7 @@ print(src_list)
 min_ind = 0
 max_ind = 0
 
-for i in range(LENGTH_LIST):
+for i in range(len(src_list)):
     if src_list[i] > src_list[max_ind]:
         max_ind = i
     elif src_list[i] < src_list[min_ind]:
