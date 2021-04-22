@@ -15,5 +15,5 @@ for i in range(COUNT_ROWS):
         matrix[i].append(float(input(f"Введите {j} элемент {i} строки: ")))
         sum_row += matrix[i][j]
     matrix[i].append(sum_row)
-for i in range(COUNT_ROWS):
+for i in range(len(matrix)):
     print(f"{matrix[i]}")
