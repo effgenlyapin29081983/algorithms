@@ -5,18 +5,23 @@ HOLE = 0
 
 
 def sieve_erat(n):
-    sieve = [i for i in range(n)]
+    sieve = [i for i in range(n**2)]
 
     sieve[1] = HOLE
-    for i in range(2, n):
+    x = 0
+    res = []
+    i = 2
+    while x<n:
         if sieve[i] != HOLE:
             j = i + i
-            while j < n:
+            x+=1
+            res.append(sieve[i])
+            while j < n**2:
                 sieve[j] = HOLE
                 j += i
+        i+=1
 
-    res = [item for item in sieve if item != HOLE]
-    return res
+    return res[n-1]
 
 
 #print(sieve_erat(100))
@@ -55,7 +60,7 @@ cProfile.run("sieve_erat(10000000)")
 """
 
 def erat(n):
-    res = [i for i in range(n)]
+    res = [i for i in range(n**2)]
     spam = res.pop(0)
     spam = res.pop(0)
     for i in range(len(res) - 1, 1, -1):
@@ -67,7 +72,7 @@ def erat(n):
                 spam = res.pop(i)
                 j = i + 1
 
-    return res
+    return res[n-1]
 
 
 #print(erat(100))
