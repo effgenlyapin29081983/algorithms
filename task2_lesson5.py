@@ -18,8 +18,8 @@ def sum_hex(a, b):
     
     for i in range(len(lst_a)-1, -1, -1):
         res.appendleft(0)
-        spam = NUMBERS.index(lst_a[i]) + NUMBERS.index(lst_b[i])
-        res[len(res)-count] += spam % 16
+        spam = res[len(res)-count] + NUMBERS.index(lst_a[i]) + NUMBERS.index(lst_b[i])
+        res[len(res)-count] = spam % 16
         if spam > 15:
             res[len(res)-count-1] = spam // 16
         count +=1
@@ -43,17 +43,17 @@ def mul_hex(a, b):
         count_a = 1
         for j in range(len(lst_a)-1, -1, -1):
             res.appendleft(0)
-            spam = NUMBERS.index(lst_a[j]) * NUMBERS.index(lst_b[i])
-            res[len(res)-count_a] += spam % 16
-            if spam > 15:
+            spam = res[len(res)-count_a] + NUMBERS.index(lst_a[j]) * NUMBERS.index(lst_b[i])
+            res[len(res)-count_a] = spam % 16
+            if spam >= 15:
                 res[len(res)-count_a-1] = spam // 16
             count_a +=1
         for nulls in range(0, count_b-1):
             res.append(0)
         if res[0] == 0:
             res.popleft()
-        for i in range(0,len(res)):
-            res[i] = NUMBERS[res[i]]
+        for ind in range(0,len(res)):
+            res[ind] = NUMBERS[res[ind]]
         eggs = ''.join(res)
         result = sum_hex(result, eggs)
         count_b += 1
@@ -67,4 +67,4 @@ print("sum :")
 print(sum_hex(first_num, second_num))
             
 print("mul :")
-print(mul_hex(first_num, second_num))    
+print(mul_hex(first_num, second_num))
